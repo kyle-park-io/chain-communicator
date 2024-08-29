@@ -1,0 +1,5 @@
+# Ignore generated JavaScript files from Protobuf
+*.js linguist-generated=true
+*.ts linguist-generated=true
+*.js linguist-vendored
+*.ts linguist-vendored
