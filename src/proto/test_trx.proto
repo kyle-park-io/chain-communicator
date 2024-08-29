@@ -1,0 +1,9 @@
+syntax = "proto3";
+package types;
+option go_package = "./test_trx";
+
+message TestTrxProto {
+    uint32 version = 1;
+    uint64 nonce = 3;
+    bytes data = 5;
+}
